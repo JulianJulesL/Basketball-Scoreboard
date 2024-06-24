@@ -36,12 +36,20 @@
                 </div>
                 <button id="guest-minus" onclick="guestMinus()">-</button>
                 <h1 id="home-fouls">FOULS</h1>
-                <input type="text" id="home-foul-count">
+                <input type="text" id="home-foul-count" value="0">
+                <button id="home-foul-plus" onclick="homefoulPlus()">+</button>
+                <button id="home-foul-minus" onclick="homefoulMinus()">-</button>
                 <h1 id="time-out">TIME OUTS LEFT</h1>
-                <input type="text" id="home-time-out">
-                <input type="text" id="guest-time-out">
+                <input type="text" id="home-time-out" value="0">
+                <input type="text" id="guest-time-out" value="0">
+                <button id="home-timeout-plus" onclick="hometimeoutPlus()">+</button>
+                <button id="home-timeout-minus" onclick="hometimeoutMinus()">-</button>
+                <button id="guest-timeout-plus" onclick="guesttimeoutPlus()">+</button>
+                <button id="guest-timeout-minus" onclick="guesttimeoutMinus()">-</button>
                 <h1 id="guest-fouls">FOULS</h1>
-                <input type="text" id="guest-foul-count">
+                <input type="text" id="guest-foul-count" value="0">
+                <button id="guest-foul-plus" onclick="guestfoulPlus()">+</button>
+                <button id="guest-foul-minus" onclick="guestfoulMinus()">-</button>
             </body>
             <script src="index.js"></script>
         </head>

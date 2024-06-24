@@ -251,7 +251,7 @@ body {
 #home-time-out{
     position: absolute;
     top: 660px;
-    left: 805px;
+    left: 620px;
     width: 100px;
     height: 80px;
     background: black;
@@ -264,7 +264,7 @@ body {
 #guest-time-out{
     position: absolute;
     top: 660px;
-    left: 620px;
+    left: 805px;
     width: 100px;
     height: 80px;
     background: black;
@@ -325,4 +325,108 @@ body {
     text-align: center;
     color: #bf9b30;
     cursor: pointer;
+}
+#home-foul-plus{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 670px;
+    left: 450px;
+}
+#home-foul-minus{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 710px;
+    left: 450px;
+}
+#guest-foul-plus{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 670px;
+    left: 1050px;
+}
+#guest-foul-minus{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 710px;
+    left: 1050px;
+}
+#home-timeout-plus{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 670px;
+    left: 570px;
+}
+#home-timeout-minus{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 710px;
+    left: 570px;
+}
+#guest-timeout-plus{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 670px;
+    left: 930px;
+}
+#guest-timeout-minus{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 710px;
+    left: 930px;
 }

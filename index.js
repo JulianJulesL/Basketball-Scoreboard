@@ -3,6 +3,7 @@ let guestScore = document.getElementById("guest-score")
 let homeCount = 0
 let guestCount = 0
 
+
 function homePlus1(){
     homeCount += 1
     homeScore.textContent = homeCount
@@ -40,6 +41,46 @@ function guestMinus(){
     guestCount -= 1
     guestScore.textContent = guestCount
 }
+function homefoulPlus() {
+    let homeFoulCount = document.getElementById("home-foul-count");
+    homeFoulCount.value = parseInt(homeFoulCount.value) + 1;
+}
+
+function homefoulMinus() {
+    let homeFoulCount = document.getElementById("home-foul-count");
+    homeFoulCount.value = parseInt(homeFoulCount.value) - 1;
+}
+
+function guestfoulPlus() {
+    let guestFoulCount = document.getElementById("guest-foul-count");
+    guestFoulCount.value = parseInt(guestFoulCount.value) + 1;
+}
+
+function guestfoulMinus() {
+    let guestFoulCount = document.getElementById("guest-foul-count");
+    guestFoulCount.value = parseInt(guestFoulCount.value) - 1;
+}
+
+function hometimeoutPlus() {
+    let homeTimeoutCount = document.getElementById("home-time-out");
+    homeTimeoutCount.value = parseInt(homeTimeoutCount.value) + 1;
+}
+
+function hometimeoutMinus() {
+    let homeTimeoutCount = document.getElementById("home-time-out");
+    homeTimeoutCount.value = parseInt(homeTimeoutCount.value) - 1;
+}
+
+function guesttimeoutPlus() {
+    let guestTimeoutCount = document.getElementById("guest-time-out");
+    guestTimeoutCount.value = parseInt(guestTimeoutCount.value) + 1;
+}
+
+function guesttimeoutMinus() {
+    let guestTimeoutCount = document.getElementById("guest-time-out");
+    guestTimeoutCount.value = parseInt(guestTimeoutCount.value) - 1;
+}
+
 
 let timerInterval;
         let isRunning = false;
