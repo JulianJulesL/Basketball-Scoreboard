@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+            <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+            <body>
+                <input type="text" id="clock" value="00:00">
+                <button id="play-pause" onclick="toggleTimer()">Play</button>
+                <input type="text" id="shotclock" value="24">
+                <button id="reset-clock" onclick="resettimer()">Reset clock</button>
+                <button id="reset-shotclock-24" onclick="resetShotClock24()">Reset Shotclock (24)</button>
+                <button id="reset-shotclock-14" onclick="resetShotClock14()">Reset Shotclock (14)</button>
+                <h1 id="period">PERIOD</h1>
+                <input type="text" id="period-input">
+                <div class="home">
+                    <input type="text" id="home-team-name" placeholder="Home Team Name">
+                    <div id="home-score">0</div>
+                </div>
+                <div class="guest">
+                    <input type="text" id="guest-team-name" placeholder="Away Team Name">
+                    <div id="guest-score">0</div>
+                </div>
+                <div class="home-plus">
+                    <button id="home-plus1" onclick="homePlus1()">+1</button>
+                    <button id="home-plus2" onclick="homePlus2()">+2</button>
+                    <button id="home-plus3" onclick="homePlus3()">+3</button>
+                </div>
+                <button id="home-minus" onclick="homeMinus()">-</button>
+                <div class="guest-plus">
+                    <button id="guest-plus1" onclick="guestPlus1()">+1</button>
+                    <button id="guest-plus2" onclick="guestPlus2()">+2</button>
+                    <button id="guest-plus3" onclick="guestPlus3()">+3</button>
+                </div>
+                <button id="guest-minus" onclick="guestMinus()">-</button>
+                <h1 id="home-fouls">FOULS</h1>
+                <input type="text" id="home-foul-count">
+                <h1 id="time-out">TIME OUTS LEFT</h1>
+                <input type="text" id="home-time-out">
+                <input type="text" id="guest-time-out">
+                <h1 id="guest-fouls">FOULS</h1>
+                <input type="text" id="guest-foul-count">
+            </body>
+            <script src="index.js"></script>
+        </head>
+    </html>

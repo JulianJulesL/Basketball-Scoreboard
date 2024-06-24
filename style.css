@@ -1,0 +1,328 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #000040;
+    color: #EEEEEE;
+}
+
+#clock{
+    position: absolute;
+    top: 70px;
+    left: 653px;
+    font-size: 60px;
+    color: #8B0000;
+    border: 2px solid rgb(99, 95, 95);
+    border-radius: 5px;
+    background: black;
+    padding: 20px 10px 5px 10px;
+    width: 200px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+#shotclock{
+    position: absolute;
+    top: 170px;
+    left: 642px;
+    font-size: 140px;
+    color: #8B0000;
+    border: 2px solid rgb(99, 95, 95);
+    border-radius: 5px;
+    padding: 20px 30px 0 30px;
+    background: black;
+    width: 180px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#period{
+    position: absolute;
+    top: 430px;
+    left: 630px;
+}
+#period-input{
+    position: absolute;
+    top: 415px;
+    left: 800px;
+    width: 120px;
+    height: 100px;
+    background: black;
+    border: 2px solid rgb(99, 95, 95);
+    border-radius: 5px;
+    color: #bf9b30;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 100px;
+    padding-top: 10px;
+    text-align: center;
+}
+#home-team-name{
+    position: absolute;
+    top: 250px;
+    left: 130px;
+    width: 500px;
+    height: 70px;
+    background: none;
+    border: 2px solid rgb(99, 95, 95);
+    font-size: 50px;
+    color: #EEEEEE;
+    text-align: center;
+}
+#guest-team-name{
+    position: absolute;
+    top: 250px;
+    left: 890px;
+    width: 500px;
+    height: 70px;
+    background: none;
+    border: 2px solid rgb(99, 95, 95);
+    font-size: 50px;
+    color: #EEEEEE;
+    text-align: center;
+}
+.home{
+    margin: 350px 0 0 320px;
+    font-size: 30px;
+}
+#home-score{
+    border: 2px solid rgb(99, 95, 95);
+    border-radius: 5px;
+    width: 190px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 70px;
+    background: black;
+    color: #bf9b30;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+.guest{
+    margin: -130px 0 0 1000px;
+    font-size: 30px;
+}
+#guest-score{
+    border: 2px solid rgb(99, 95, 95);
+    border-radius: 5px;
+    width: 190px;
+    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 70px;
+    background: black;
+    color: #bf9b30;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+.home-plus{
+    display: flex;
+    margin: 20px 0 0 320px;
+}
+#home-plus1{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+}
+#home-plus2{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    left: 403px;
+    background: none;
+    cursor: pointer;
+}
+#home-plus3{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    left: 480px;
+    background: none;
+    cursor: pointer;
+}
+.guest-plus{
+    display: flex;
+    margin: -35px 0 0 1000px;
+}
+#guest-plus1{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+}
+#guest-plus2{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    left: 1085px;
+    background: none;
+    cursor: pointer;
+}
+#guest-plus3{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    left: 1165px;
+    background: none;
+    cursor: pointer;
+} 
+#home-minus{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    top: 550px;
+    left: 405px;
+    background: none;
+    cursor: pointer;
+}
+#guest-minus{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    top: 550px;
+    left: 1085px;
+    background: none;
+    cursor: pointer;
+}
+#home-fouls{
+    position: absolute;
+    top: 560px;
+    left: 320px;
+}
+#time-out{
+    position: absolute;
+    top: 560px;
+    left: 640px;
+}
+#guest-fouls{
+    position: absolute;
+    top: 560px;
+    left: 1100px;
+}
+#home-foul-count{
+    position: absolute;
+    top: 660px;
+    left: 320px;
+    width: 100px;
+    height: 80px;
+    background: black;
+    border: 2px solid rgb(99, 95, 95);
+    font-size: 50px;
+    text-align: center;
+    color: #8B0000;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+#guest-foul-count{
+    position: absolute;
+    top: 660px;
+    left: 1100px;
+    width: 100px;
+    height: 80px;
+    background: black;
+    border: 2px solid rgb(99, 95, 95);
+    font-size: 50px;
+    text-align: center;
+    color: #8B0000;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+#home-time-out{
+    position: absolute;
+    top: 660px;
+    left: 805px;
+    width: 100px;
+    height: 80px;
+    background: black;
+    border: 2px solid rgb(99, 95, 95);
+    font-size: 50px;
+    text-align: center;
+    color: #bf9b30;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+#guest-time-out{
+    position: absolute;
+    top: 660px;
+    left: 620px;
+    width: 100px;
+    height: 80px;
+    background: black;
+    border: 2px solid rgb(99, 95, 95);
+    font-size: 50px;
+    text-align: center;
+    color: #bf9b30;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+#play-pause {
+    position: absolute;
+    top: 90px;
+    left: 565px;
+    width: 70px;
+    height: 47px;
+    background: black;
+    border: 2px solid rgb(99, 95, 95);
+    font-size: 10px;
+    text-align: center;
+    color: #bf9b30;
+    cursor: pointer;
+}
+#reset-shotclock-24 {
+    position: absolute;
+    top: 170px;
+    left: 565px;
+    width: 70px;
+    height: 47px;
+    background: black;
+    border: 2px solid rgb(99, 95, 95);
+    font-size: 10px;
+    text-align: center;
+    color: #bf9b30;
+    cursor: pointer;
+}
+#reset-shotclock-14 {
+    position: absolute;
+    top: 170px;
+    left: 895px;
+    width: 70px;
+    height: 47px;
+    background: black;
+    border: 2px solid rgb(99, 95, 95);
+    font-size: 10px;
+    text-align: center;
+    color: #bf9b30;
+    cursor: pointer;
+}
+#reset-clock {
+    position: absolute;
+    top: 90px;
+    left: 890px;
+    width: 70px;
+    height: 47px;
+    background: black;
+    border: 2px solid rgb(99, 95, 95);
+    font-size: 10px;
+    text-align: center;
+    color: #bf9b30;
+    cursor: pointer;
+}
